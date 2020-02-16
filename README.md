@@ -31,7 +31,9 @@ Text vectorization:
 
 The resulting matrix had 260,000 features. I tried Naive Bayes for a baseline before landing on Random Forest as the best-performing model, despite its slow train speed. Based only on review text across multiple business types the model had a classification accuracy of **88%**.
 
-### Technologies
+___
+
+#### Technologies
 
 * Python
 * Spark
