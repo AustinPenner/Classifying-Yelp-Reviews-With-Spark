@@ -6,6 +6,8 @@ As a pizza enthusiast, I'm always combing through online reviews looking for new
 
 I used NLP on Yelp review data to look at a review's text and predict whether it was a positive or negative review. Reviews can have values of 1 to 5 stars, which I bucketed into 4-5 stars for a positive review, and 1-3 stars for a negative review. The reason for this is that most people use online reviews this way (most do not consider a 3.2 star rating to be good). The classes are relatively balanced at 65% positive to 35% negative.
 
+![alt text](https://github.com/AustinPenner/Classifying-Yelp-Reviews-With-Spark/blob/master/images/Ratings%20Distribution.png "Ratings Distribution")
+
 ### What about the data?
 
 The dataset consists of 6.7 million reviews comprising 5GB of data. Approximately 70% of business were in the US and virtually all the remainder were in Canada. About 34% of the businesses were restaurants while shopping, bars/nightlife, and various others made up the rest. The average review was ~110 words before preprocessing. 
